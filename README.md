@@ -1,4 +1,8 @@
-<
+<img src="./img/1.birthdayCalculater.png" alt="GitHUB" align="center" >
+<img src="./img/2.birthDayCalculater.png" alt="GitHUB" align="center" >
+<img src="./img/3.birthdaycalculater.png" alt="GitHUB" align="center" >
+<img src="./img/4.birthdaycalculater.png" alt="GitHUB" align="center" >
+<img src="./img/5.birthdaycalculater.png" alt="GitHUB" align="center" >
 
 
 
