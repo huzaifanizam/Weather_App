@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>es6 WEATHER APP</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <h1>WEATHER APP</h1>
+    <form onsubmit="getWeather(); return false">
+      <label for="cityName">City</label>
+      <input
+        type="text"
+        name="cityName"
+        id="cityName"
+        placeholder="Enter Your cCity Name"
+      />
+
+      <br />
+
+      <button type="submit">Get Weather</button>
+    </form>
+    <div id="icon">
+      <img
+        src="https://openweathermap.org/img/wn/10d@2x.png"
+        alt="weather discription"
+      />
+    </div>
+    <div id="result"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
