@@ -9,7 +9,10 @@ window.getWeather = function () {
   .then(function (response) {
     // handle success
     console.log(response.data);
-    document.querySelector("#result").innerHTML = ` Currwnt Temperature of ${response.data.name} is ${response.data.main.temp}°C`
+    document.querySelector("#resultTemperature").innerHTML = `${response.data.main.temp}°C`
+    document.querySelector("#resultCloud").innerHTML = `${response.data.weather[0].main}`
+    document.querySelector("#resultCity").innerHTML = `${response.data.name}`
+    document.querySelector("#resultCountry").innerHTML = `  ${response.data.sys.country}`
     
   })
   .catch(function (error) {
@@ -17,6 +20,12 @@ window.getWeather = function () {
     console.log(error.data);
     document.querySelector("#result").innerHTML = "error in getting weather data"
   })
+  
+  let currentTime = moment().format('LT');
+  let currentDay = moment().format('Do  MM');   
+  document.querySelector("#resultDate").innerHTML = `  ${currentDay}`
+  document.querySelector("#resultTime").innerHTML = `  ${currentTime}`
+
   
 
 }
