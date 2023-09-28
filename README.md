@@ -24,4 +24,3 @@
 
 
 
-## For my purpus
