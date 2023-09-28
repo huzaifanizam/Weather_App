@@ -1,8 +1,10 @@
-<img src="./img/1.birthdayCalculater.png" alt="GitHUB" align="center" >
-<img src="./img/2.birthDayCalculater.png" alt="GitHUB" align="center" >
-<img src="./img/3.birthdaycalculater.png" alt="GitHUB" align="center" >
-<img src="./img/4.birthdaycalculater.png" alt="GitHUB" align="center" >
-<img src="./img/5.birthdaycalculater.png" alt="GitHUB" align="center" >
+<img src="./img/1.mobile.png" alt="GitHUB" align="center" >
+<img src="./img/2.mobilew.png" alt="GitHUB" align="center" >
+<img src="./img/3.mobile.png" alt="GitHUB" align="center" >
+<img src="./img/4.web.png" alt="GitHUB" align="center" >
+<img src="./img/5.wec.png" alt="GitHUB" align="center" >
+<img src="./img/6.web.png" alt="GitHUB" align="center" >
+<img src="./img/7.web.png" alt="GitHUB" align="center" >
 
 
 
@@ -23,9 +25,3 @@
 
 
 ## For my purpus
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/huzaifanizam/Weather_App.git
-git push -u origin main 

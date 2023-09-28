@@ -8,6 +8,8 @@ window.getWeather = function () {
   axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${API_KEY}&units=metric`)
   .then(function (response) {
     // handle success
+
+  
     console.log(response.data);
     document.querySelector("#resultTemperature").innerHTML = `${response.data.main.temp}°C`
     document.querySelector("#resultCloud").innerHTML = `${response.data.weather[0].main}`
@@ -18,13 +20,17 @@ window.getWeather = function () {
   .catch(function (error) {
     // handle error
     console.log(error.data);
-    document.querySelector("#result").innerHTML = "error in getting weather data"
+    document.querySelector("#result").innerHTML = "Please! Enter Your City Name"
   })
   
   let currentTime = moment().format('LT');
-  let currentDay = moment().format('Do  MM');   
+  let currentDay = moment().format('Do  MMM');   
   document.querySelector("#resultDate").innerHTML = `  ${currentDay}`
   document.querySelector("#resultTime").innerHTML = `  ${currentTime}`
+
+  
+  
+
 
   
 

@@ -32,26 +32,20 @@
     </div>
 
 
+    <div class="box stack-top main">
 
-    <div class="box stack-top">
-
+      <div class="search-box">
       <form onsubmit="getWeather(); return false">
-        <div class="search-box">
           <button  type="submit"  class="btn-search"><i class="bi bi-search"></i></button>
           <input type="text" class="input-search" id="cityName"  placeholder="Type to Search...">
+        </form>
         </div>
-      </form>
-      
-     
-
-  
       <div class="result" id="result">
         <div class="resultDay">
           <div class="resultDate" id="resultDate"></div>
           <div  class="resultTime" id="resultTime"></div>
         </div>
-
-        <div class="resultPicture"></div>
+        <div class="resultImage" id="resultImage"></div>
         <div class="resultTemperature" id="resultTemperature"></div>
         <div class="resultCloud" id="resultCloud"></div>
 
@@ -60,6 +54,8 @@
           <div  class="resultCountry" id="resultCountry"></div>
         </div>
       </div>
+  
+     
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
